@@ -25,17 +25,17 @@ $ omf install https://github.com/jhillyerd/plugin-git
 | ga           | `git add`                                            |
 | gaa          | `git add --all`                                      |
 | gapa         | `git add --patch`                                    |
-| gba          | `git branch -a -v`                                   |
-| gb           | `git branch`                                         |
+| gba          | `git branch -a -vv`                                   |
+| gb           | `git branch -vv`                                         |
 | gc           | `git commit -v`                                      |
 | `gc!`        | `git commit -v --amend`                              |
 | gca          | `git commit -v -a`                                   |
 | `gca!`       | `git commit -v -a --amend`                           |
 | gcmsg        | `git commit -m`                                      |
 | gcl          | `git clone`                                          |
-| gco          | `git checkout`                                       |
-| gcod         | `git checkout develop`                               |
-| gcom         | `git checkout master`                                |
+| gch          | `git checkout`                                       |
+| gchd         | `git checkout develop`                               |
+| gchm         | `git checkout master`                                |
 | gcb          | `git checkout -b`                                    |
 | gcount       | `git shortlog -sn`                                   |
 | gcp          | `git cherry-pick`                                    |
@@ -59,7 +59,7 @@ $ omf install https://github.com/jhillyerd/plugin-git
 | gm           | `git merge`                                          |
 | gmt          | `git mergetool --no-prompt`                          |
 | gp           | `git push`                                           |
-| gr           | `git remote`                                         |
+| gr           | `git remote -vv`                                     |
 | grba         | `git rebase --abort`                                 |
 | grbc         | `git rebase --continue`                              |
 | grbi         | `git rebase --interactive`                           |
