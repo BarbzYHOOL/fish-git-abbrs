@@ -12,6 +12,7 @@ abbr -a gaa        git add --all
 abbr -a gapa       git add --patch
 abbr -a gba        git branch -a -vv
 abbr -a gb         git branch -vv
+
 abbr -a gc         git commit -v
 abbr -a gc!        git commit -v --amend
 abbr -a gc!n       git commit -v --amend --no-edit
@@ -19,6 +20,7 @@ abbr -a gca        git commit -v -a
 abbr -a gca!       git commit -v -a --amend
 abbr -a gca!n      git commit -v -a --amend --no-edit
 abbr -a gcmsg      git commit -m
+
 abbr -a gcl        git clone
 abbr -a gcount     git shortlog -sn
 abbr -a gcp        git cherry-pick
@@ -33,12 +35,9 @@ abbr -a gk         gitk --all --branches
 abbr -a gf         git fetch
 abbr -a gfa        git fetch --all --prune
 abbr -a gfo        git fetch origin
+
 abbr -a gpl        git pull
-abbr -a glg        git log --stat --max-count=10
-abbr -a glgg       git log --graph --max-count=10
-abbr -a glgga      git log --graph --decorate --all
-abbr -a glo        "git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short"
-abbr -a glog       git log --oneline --decorate --color --graph
+
 abbr -a gsh        git show
 abbr -a gm         git merge
 abbr -a gmt        git mergetool --no-prompt
@@ -68,8 +67,20 @@ abbr -a gunignore  git update-index --no-assume-unchanged
 abbr -a gup        git pull --rebase
 abbr -a gwch       git whatchanged -p --abbrev-commit --pretty=medium
 
-# git checkout abbreviations
+## git checkout abbreviations
 abbr -a gch        git checkout
 abbr -a gchb       git checkout -b
 abbr -a gchd       git checkout develop
 abbr -a gchm       git checkout master
+
+## git log + jack (requires jack)
+abbr -a glg        git log --stat --max-count=10
+abbr -a glgg       git log --graph --max-count=10
+abbr -a glgga      git log --graph --decorate --all
+abbr -a glo        "git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short"
+abbr -a glog       git log --oneline --decorate --color --graph
+abbr -a jlg        jack --stat --max-count=10
+abbr -a jlgg       jack --graph --max-count=10
+abbr -a jlgga      jack --graph --decorate --all
+abbr -a jlo        "jack --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short"
+abbr -a jlog       jack --oneline --decorate --color --graph
