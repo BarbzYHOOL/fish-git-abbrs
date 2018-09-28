@@ -70,7 +70,7 @@ abbr -a gup        git pull --rebase
 abbr -a gwch       git whatchanged -p --abbrev-commit --pretty=medium
 
 # git checkout abbreviations
-abbr -a gco        git checkout
-abbr -a gcb        git checkout -b
-abbr -a gcod       git checkout develop
-abbr -a gcom       git checkout master
+abbr -a gch        git checkout
+abbr -a gchb       git checkout -b
+abbr -a gchd       git checkout develop
+abbr -a gchm       git checkout master
