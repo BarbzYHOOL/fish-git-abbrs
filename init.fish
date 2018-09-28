@@ -33,7 +33,7 @@ abbr -a gk         gitk --all --branches
 abbr -a gf         git fetch
 abbr -a gfa        git fetch --all --prune
 abbr -a gfo        git fetch origin
-abbr -a gl         git pull
+abbr -a gpl        git pull
 abbr -a glg        git log --stat --max-count=10
 abbr -a glgg       git log --graph --max-count=10
 abbr -a glgga      git log --graph --decorate --all
@@ -43,7 +43,7 @@ abbr -a gloo       git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgre
 abbr -a gsh        git show
 abbr -a gm         git merge
 abbr -a gmt        git mergetool --no-prompt
-abbr -a gp         git push
+abbr -a gps        git push
 abbr -a gr         git remote -vv
 abbr -a grba       git rebase --abort
 abbr -a grbc       git rebase --continue
