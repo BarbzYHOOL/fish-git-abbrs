@@ -73,12 +73,15 @@ abbr -a gchb       git checkout -b
 abbr -a gchd       git checkout develop
 abbr -a gchm       git checkout master
 
-## git log + jack (requires jack)
+## git log
 abbr -a glg        git log --stat --max-count=10
 abbr -a glgg       git log --graph --max-count=10
 abbr -a glgga      git log --graph --decorate --all
 abbr -a glo        "git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short"
 abbr -a glog       git log --oneline --decorate --color --graph
+
+## jack (requires jack)
+abbr -a j          jack
 abbr -a jlg        jack --stat --max-count=10
 abbr -a jlgg       jack --graph --max-count=10
 abbr -a jlgga      jack --graph --decorate --all
