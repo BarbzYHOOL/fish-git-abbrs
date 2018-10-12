@@ -113,6 +113,10 @@ abbr -a glgga      git log --graph --decorate --all
 abbr -a glo        "git log --pretty=format:'%C(yellow)%h %C(red)%ad %C(blue)%an%C(green)%d %C(reset)%s %C(white)%N' --date=short"
 abbr -a glog       git log --oneline --decorate --color --graph
 
+## git notes
+abbr -a gn 		   git notes add -m 
+abbr -a gns		   git notes show
+
 ## jack (requires jack)
 abbr -a j          jack
 abbr -a jlg        jack --stat --max-count=10
