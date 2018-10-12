@@ -86,6 +86,8 @@ abbr -a gsr        git svn rebase
 
 ## git status
 abbr -a gst        git status
+abbr -a gsv        git status -v
+abbr -a gsvv       git status -vv
 abbr -a gss        git status -s
 
 ## git stash
