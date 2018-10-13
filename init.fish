@@ -110,7 +110,7 @@ abbr -a gchm       git checkout master
 abbr -a glg        git log --stat --max-count=10
 abbr -a glgg       git log --graph --max-count=10
 abbr -a glgga      git log --graph --decorate --all
-abbr -a glo        "git log --pretty=format:'%C(yellow)%h %C(red)%ad %C(blue)%an%C(green)%d %C(reset)%s %C(white)%N' --date=short"
+abbr -a glo        "git log --pretty=format:'%C(yellow)%h %C(red)%ad %C(blue)%an%C(green)%d %C(reset)%s %C(white)%N' --date=short -n 5"
 abbr -a glog       git log --oneline --decorate --color --graph
 
 ## git notes
