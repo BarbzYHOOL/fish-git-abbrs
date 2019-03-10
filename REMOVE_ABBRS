@@ -1,0 +1,133 @@
+##### COMMAND TO REMOVE MOST ABBRS AT ONCE
+
+abbr -e g
+
+## git add
+abbr -e ga
+abbr -e gaa
+abbr -e gapa
+
+## git branch
+abbr -e gb
+abbr -e gba
+
+## git commit
+abbr -e gc
+abbr -e gc!
+abbr -e gc!n
+abbr -e gca
+abbr -e gca!
+abbr -e gca!n
+abbr -e gcmsg
+
+## git clone
+abbr -e gcl
+abbr -e gcld
+abbr -e gcl1
+abbr -e gclm
+abbr -e gcls
+
+## git shortlog
+abbr -e gcount
+
+## git cherry pick
+abbr -e gcp
+
+## git diff
+abbr -e gd
+abbr -e gdca
+
+## git fetch
+abbr -e gf
+abbr -e gfa
+abbr -e gfo
+
+## git pull
+abbr -e gpl
+
+## git push
+abbr -e gps
+
+## git show
+abbr -e gsh
+
+## git merge
+abbr -e gm
+abbr -e gmt
+
+## git rebase
+abbr -e grba
+abbr -e grbc
+abbr -e grbi
+abbr -e grbm
+abbr -e grbs
+
+## git reset
+abbr -e grh
+abbr -e grhh
+
+## git remote
+abbr -e gr
+abbr -e gra
+abbr -e grs
+abbr -e grmv
+abbr -e grrm
+abbr -e grup
+
+## git svn
+abbr -e gsd
+abbr -e gsr
+
+## git status
+abbr -e gst
+abbr -e gsv
+abbr -e gsvv
+abbr -e gss
+
+## git stash
+abbr -e gsta
+abbr -e gstd
+abbr -e gstp
+abbr -e gsts
+abbr -e gunignore
+abbr -e gup
+abbr -e gwch
+
+## git checkout abbreviations
+abbr -e gch
+# abbr -e gch
+abbr -e gchb
+abbr -e gchd
+abbr -e gchm
+
+## git log
+abbr -e glg
+abbr -e glgg
+abbr -e glgga
+abbr -e glo-n
+abbr -e glog
+abbr -e glo
+
+## git notes
+abbr -e gn
+abbr -e gns
+
+## jack (requires jack)
+abbr -e j
+abbr -e jlg
+abbr -e jlgg
+abbr -e jlgga
+abbr -e jlo
+abbr -e jlog
+
+
+
+## others
+abbr -e gff
+abbr -e gfr
+abbr -e gfh
+abbr -e gfs
+
+abbr -e gignore
+
+abbr -e gk
