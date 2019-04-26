@@ -41,7 +41,8 @@ abbr --add --global gcp        git cherry-pick
 
 ## git diff
 abbr --add --global gd         git diff
-abbr --add --global gdca       git diff --cached
+abbr --add --global gds        git diff --staged
+# abbr --add --global gdca       git diff --cached ## same as gds above
 
 ## git fetch
 abbr --add --global gf         git fetch
