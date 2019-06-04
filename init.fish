@@ -43,6 +43,7 @@ abbr --add --global gcp        git cherry-pick
 abbr --add --global gd         git diff
 abbr --add --global gds        git diff --staged
 # abbr --add --global gdca       git diff --cached ## same as gds above
+abbr --add --global gdi        git diff --ignore-space-change
 
 ## git fetch
 abbr --add --global gf         git fetch

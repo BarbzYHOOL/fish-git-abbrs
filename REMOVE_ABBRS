@@ -35,7 +35,9 @@ abbr -e gcp
 
 ## git diff
 abbr -e gd
+abbr -e gds
 abbr -e gdca
+abbr -e gdi
 
 ## git fetch
 abbr -e gf
