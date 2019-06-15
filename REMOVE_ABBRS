@@ -122,7 +122,10 @@ abbr -e jlgga
 abbr -e jlo
 abbr -e jlog
 
-
+## git tag
+abbr -e gtsha
+abbr -e gtsh
+abbr -e gtl
 
 ## others
 abbr -e gff

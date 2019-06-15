@@ -119,6 +119,11 @@ abbr --add --global glog       git log --oneline --decorate --color --graph
 abbr --add --global gn 		   git notes add -m
 abbr --add --global gns		   git notes show
 
+## git tag
+abbr --add --global gtsha      git show-ref --abbrev=7 --tags --dereference      # Show  all tags and their respective tag hash + commit hash
+abbr --add --global gtsh       git show-ref --abbrev=7 --dereference             # Same but for single tag
+abbr --add --global gtl        git tag -l -n9                                    # Show git tag message (by default it's the commit name)
+
 ## jack (requires jack)
 abbr --add --global j          jack
 abbr --add --global jlg        jack --stat --max-count=10
@@ -126,7 +131,6 @@ abbr --add --global jlgg       jack --graph --max-count=10
 abbr --add --global jlgga      jack --graph --decorate --all
 abbr --add --global jlo        "jack --pretty=format:'%C(yellow)%h %C(red)%ad %C(blue)%an%C(green)%d %C(reset)%s %C(white)%N' --date=short"
 abbr --add --global jlog       jack --oneline --decorate --color --graph
-
 
 
 ## others
